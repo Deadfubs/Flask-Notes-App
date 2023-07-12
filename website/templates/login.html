@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center">
+    <form method="POST" class="w-50">
+        <h3 align="center">Login</h3>
+        <div class="form-group">
+            <label for="email_or_username">Email Address or Username</label>
+            <input type="text" class="form-control" id="email_or_username" name="email_or_username" placeholder="Enter Email or Username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+        </div>
+        <br/>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>
+{% endblock %}
