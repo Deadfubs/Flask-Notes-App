@@ -1,4 +1,5 @@
 # Flask Web App - Notepad
+![image](https://github.com/Deadfubs/Flask-Notes-App/assets/74834392/ecec4442-df04-467c-b97c-5f57b04471cb)
 
 ## Descrição
 Este é um projeto de uma aplicação web de notas criada usando o Flask, um framework em Python. A aplicação permite criar, visualizar e excluir notas personalizadas. Também possui recursos de autenticação de usuário para login e signup seguro.
